@@ -1,0 +1,25 @@
+# 帝国の勃興
+civic_eoa_empire_of_awakening = {
+	description = "civic_eoa_empire_of_awakening_effect"
+	potential = {
+		origin = {
+			value = origin_empire_of_awakening
+		}
+	}
+	possible = {
+		origin = {
+			value = origin_empire_of_awakening
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		empire_size_systems_mult = -0.25
+		empire_size_colonies_mult = -0.25
+		empire_size_pops_mult = -0.25
+		intel_encryption_add = 10
+		intel_decryption_add = 10
+		planet_structures_cost_mult = -0.15
+		planet_structures_upkeep_mult = -0.15
+		planet_max_buildings_add = 2
+	}
+}

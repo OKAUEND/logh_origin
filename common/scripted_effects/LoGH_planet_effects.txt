@@ -1,0 +1,46 @@
+########################################################################
+# 帝都のPOP生成
+create_imperial_center_pops = {
+	optimize_memory
+	if ={
+		limit = {
+			owner = {
+					has_origin = origin_empire_of_awakening
+				}
+		}
+
+		while = {
+			limit = { num_pops < 35 }
+			create_pop = {
+				species = owner_main_species
+				ethos = random
+			}
+		}
+
+		create_pop = {
+			species = event_target:eoa_imperial_robots
+			count = 5
+		}
+	}
+
+	if ={
+		limit = {
+			owner = {
+					has_origin = origin_empire_of_awakening
+				}
+		}
+
+		while = {
+			limit = { num_pops < 35 }
+			create_pop = {
+				species = owner_main_species
+				ethos = random
+			}
+		}
+
+		create_pop = {
+			species = event_target:eoa_imperial_robots
+			count = 5
+		}
+	}
+}

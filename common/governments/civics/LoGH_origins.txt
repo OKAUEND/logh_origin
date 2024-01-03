@@ -1,0 +1,32 @@
+
+### ゴールデンバウム王朝
+origin_logh_goldenbaum = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/EmpireOfAwakening.dds"
+	picture = GFX_origin_empireofawakening
+
+	flags = { custom_start_screen }
+
+	description = "origin_tooltip_empireofawakening_effects"
+
+	advanced_start = yes
+	random_weight = {
+		base = 0
+	}
+}
+
+### 自由惑星同盟
+origin_logh_freeplanet = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/EmpireOfAwakening.dds"
+	picture = GFX_origin_empireofawakening
+
+	flags = { custom_start_screen }
+
+	description = "origin_tooltip_empireofawakening_effects"
+
+	advanced_start = yes
+	random_weight = {
+		base = 0
+	}
+}

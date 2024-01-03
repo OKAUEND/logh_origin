@@ -1,0 +1,65 @@
+EOA_AI_Country_Init_Bonus_ships = {
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Constructor"
+			}
+			set_location = prev
+		}
+	}
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Constructor"
+			}
+			set_location = prev
+		}
+	}
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Prototype"
+			}
+			set_location = prev
+		}
+	}
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Prototype"
+			}
+			set_location = prev
+		}
+	}
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Colonizer"
+			}
+			set_location = prev
+		}
+	}
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Colonizer"
+			}
+			set_location = prev
+		}
+	}
+	create_fleet = {
+		effect = {
+			set_owner = prevprev
+			create_ship = {
+				design = "NAME_Colonizer"
+			}
+			set_location = prev
+		}
+	}
+}
