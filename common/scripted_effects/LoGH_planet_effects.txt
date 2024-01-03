@@ -1,46 +1,36 @@
 ########################################################################
-# 帝都のPOP生成
+# 首都惑星のPOP
 create_imperial_center_pops = {
 	optimize_memory
 	if ={
 		limit = {
 			owner = {
-					has_origin = origin_empire_of_awakening
+					has_origin = origin_logh_goldenbaum
 				}
 		}
 
 		while = {
-			limit = { num_pops < 35 }
+			limit = { num_pops < 30 }
 			create_pop = {
 				species = owner_main_species
 				ethos = random
 			}
-		}
-
-		create_pop = {
-			species = event_target:eoa_imperial_robots
-			count = 5
 		}
 	}
 
 	if ={
 		limit = {
 			owner = {
-					has_origin = origin_empire_of_awakening
+					has_origin = origin_logh_freeplanet
 				}
 		}
 
 		while = {
-			limit = { num_pops < 35 }
+			limit = { num_pops < 25 }
 			create_pop = {
 				species = owner_main_species
 				ethos = random
 			}
-		}
-
-		create_pop = {
-			species = event_target:eoa_imperial_robots
-			count = 5
 		}
 	}
 }
