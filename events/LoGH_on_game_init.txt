@@ -1,0 +1,53 @@
+######################################
+# EmpireOfAwakening On-Action Events #
+######################################
+namespace = logh_origin_on_game_init
+
+planet_event = {
+	id = logh_origin_on_game_init.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if ={
+			limit = {
+				owner = {
+					OR = {
+						has_origin = origin_logh_goldenbaum
+						has_origin = origin_logh_freeplanet
+					}
+				}
+			}
+			create_logh_capital_pops = yes
+		}
+	}
+}
+
+
+country_event = {
+	id = logh_origin_on_game_init.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_origin = origin_logh_goldenbaum
+	}
+
+	option = {
+		name = logh_origin_on_game_init.2.a
+
+		capital_scope = {
+			add_district = district_city
+			add_district = district_city
+			add_district = district_industrial
+			add_district = district_farming
+			add_district = district_generator
+			add_district = district_mining
+			add_building = building_precinct_house
+			add_building = building_commercial_zone
+			add_building = building_commercial_zone
+			add_building = building_commercial_zone
+			add_building = building_holo_theatres
+		}
+	}
+}

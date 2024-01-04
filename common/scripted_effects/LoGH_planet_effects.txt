@@ -1,6 +1,6 @@
 ########################################################################
 # 首都惑星のPOP
-create_imperial_center_pops = {
+create_logh_capital_pops = {
 	optimize_memory
 	if ={
 		limit = {
@@ -10,7 +10,7 @@ create_imperial_center_pops = {
 		}
 
 		while = {
-			limit = { num_pops < 30 }
+			limit = { num_pops < 50 }
 			create_pop = {
 				species = owner_main_species
 				ethos = random

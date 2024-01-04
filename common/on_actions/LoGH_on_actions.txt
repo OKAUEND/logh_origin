@@ -1,7 +1,6 @@
 on_game_start_country = {	
 	events = {
-		logh_origin_startbonus.1
-		logh_origin_startbonus.2
+		logh_origin_on_game_init.2
 	}
 }
 
@@ -14,6 +13,6 @@ on_game_start = {
 
 empire_init_capital_planet = {
 	events = {
-		logh_origin_on_game_init.10
+		logh_origin_on_game_init.1
 	}
 }
