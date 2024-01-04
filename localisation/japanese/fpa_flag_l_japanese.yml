@@ -6,3 +6,8 @@ name_list_FPRT: "自由惑星同盟"
 
 FPRT_FLEET: "同盟軍$ORD$艦隊"
 GRN_FLEET: "帝国軍$ORD$艦隊"
+
+origin_logh_goldenbaum: "黄金樹"
+origin_tooltip_logh_goldenbaum_effects: "ゴールデンバウム王朝"
+origin_logh_freeplanet: "長征一万光年"
+origin_tooltip_logh_freeplanet_effects: "自由惑星同盟"
