@@ -1,0 +1,16 @@
+
+### ORIGINS EXTENDED GFX
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_origin_logh_goldenbaum"
+		texturefile = "gfx/event_pictures/origins/origin_logh_goldenbaum.dds"
+		alwaystransparent = yes
+	}	
+
+	spriteType = {
+		name = "GFX_origin_logh_freeplanet"
+		texturefile = "gfx/event_pictures/origins/origin_logh_freeplanet.dds"
+		alwaystransparent = yes
+	}	
+}
